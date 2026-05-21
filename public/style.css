@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    /* background: rgb(30, 30, 30); */
+    background: black;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.desktopMenuBtn{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.desktopMenuBtn:hover{
+    background: yellow;
+    transform: scale(1.05);
+}
+
+.desktopMenuImg{
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: cover;
+}
+
+.mobMenu{
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.mobMenu:hover{
+    transform: rotate(90deg);
+}
+
+.navMenu{
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(40,40,40);
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: 13rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.listItem{
+    color: white;
+    padding: 0.8rem 1rem;
+    margin: 0.3rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background: rgb(30, 30,30)
+}
+
+.listItem:hover{
+    background: yellow;
+    color: black;
+    transform: translateX(5px);
+}
+
+@media screen and (max-width:720px){
+
+    .mobMenu{
+        display: flex;
+    }
+
+    .desktopMenu{
+        display: none;
+    }
+
+    .desktopMenuBtn{
+        display: none;
+    }
+}
