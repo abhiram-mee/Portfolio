@@ -34,10 +34,9 @@
     margin-bottom: 0.5rem;
 }
 
-.IntroText{
-    font-size: 3rem;
-    font-weight: 500;
-
+.introText {
+    font-size: 3.5rem;
+    font-weight: 700;
     line-height: 1.1;
 }
 
@@ -135,7 +134,7 @@
     color: yellow;
   }
 
-  .bg{
+  /* .bg{
     position: absolute;
     right: -5vw;
     bottom: 0;
@@ -147,8 +146,19 @@
     opacity: 0.9;
 
     z-index: 1;
-  }
+  } */
 
+
+  .bg{
+    width: 400px;
+    height: 500px;
+
+    object-fit: contain;
+
+    border-radius: 1rem;
+
+    transform: translateY(-40px);
+}
   .btn{
     padding: 0.7rem 1.5rem;
     font-size: 1rem;

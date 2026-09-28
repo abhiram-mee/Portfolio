@@ -7,6 +7,8 @@ import portfolio2 from '../../assets/streamverse.png';
 import portfolio3 from '../../assets/amazon.png';
 import portfolio4 from '../../assets/currency.png';
 import portfolio5 from '../../assets/scissor.png';
+import portfolio6 from '../../assets/Dashboard.png.png';
+import portfolio7 from '../../assets/pizza.png';
 
 const Works = () => {
   return (
@@ -18,9 +20,60 @@ const Works = () => {
         Here are some of the projects I developed using modern web technologies
         including React, Django, Python, JavaScript, and MySQL.
       </span>
-
       <div className='workCards'>
+      <div className='workCard'>
+          <img src={portfolio6} alt='COFFEE SHOP SALES' className='workImg'/>
 
+          <h3>COFFEE SHOP SALES</h3>
+
+          <p>
+           Created an interactive sales dashboard using Excel to analyze coffee shop sales, customer orders, product performance, and revenue trends.
+          </p>
+
+          <span className='techStack'>
+          Excel • Pivot Tables • Data Analysis • Dashboard
+          </span>
+          <div className='projectBtns'>
+
+    <a
+      href='https://github.com/abhiram-mee/Coffee-shop-sales'
+      target='_blank'
+      rel='noreferrer'
+      className='projectBtn'
+    >
+      GitHub
+    </a>
+
+  </div>
+        </div>
+
+       <div className='workCard'>
+          <img src={portfolio7} alt='Pizza Sales Analysis Using SQL' className='workImg'/>
+
+          <h3>Pizza Sales Analysis using SQL</h3>
+
+          <p>
+          Analyzed pizza sales data using SQL to uncover revenue trends,
+    top-selling pizzas, customer order patterns, and category-level
+    performance.
+          </p>
+
+          <span className='techStack'>
+          MySQL • SQL • Data Analysis • MySQL Workbench
+          </span>
+          <div className='projectBtns'>
+
+    <a
+      href='https://github.com/abhiram-mee/pizza-sales--SQL'
+      target='_blank'
+      rel='noreferrer'
+      className='projectBtn'
+    >
+      GitHub
+    </a>
+
+  </div>
+        </div>
         <div className='workCard'>
           <img src={portfolio1} alt='MOTORHUB' className='workImg'/>
 

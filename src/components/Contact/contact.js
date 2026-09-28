@@ -80,8 +80,21 @@ const Contact = () => {
       Passionate about developing responsive and user-friendly web applications
       while continuously improving technical and professional skills.
     </p>
-
+    
+   
     <div className="aboutSkillBars">
+       <div className="aboutSkillCard">
+
+        <div className="aboutSkillText">
+          <h1>Data Analytics</h1>
+
+          <p>
+           SQL, Excel, Power BI, Python, Pandas, NumPy,
+      Data Cleaning & Visualization
+          </p>
+        </div>
+
+      </div>
 
       <div className="aboutSkillCard">
 
@@ -95,6 +108,8 @@ const Contact = () => {
         </div>
 
       </div>
+
+      
 
       <div className="aboutSkillCard">
 

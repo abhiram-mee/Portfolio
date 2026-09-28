@@ -60,14 +60,27 @@ const Skills = () => {
       <span className='skillTitle'>About Me</span>
 
       <span className='skillDescription'>
-        I am an MCA graduate passionate about software and web development. 
-        I enjoy building responsive and user-friendly applications using 
-        React, Django, Python, and MySQL. I continuously improve my skills 
-        through academic and personal projects.
-      
+        MCA Graduate & Software Developer | Data Analyst
+       I enjoy analyzing data and building responsive, user-friendly applications using
+SQL, Excel, Power BI, Python, React, Django, and MySQL. I have created an SQL
+sales analysis project and an interactive Excel dashboard to explore data,
+identify trends, and present meaningful insights. I continuously improve my
+analytical and technical skills through personal and academic projects.
       </span>
 
       <div className='skillBars'>
+         <div className='skillBar'>
+          <img src={datanalyst} alt='software development' className='skillBarimg'/>
+
+          <div className='skillBarText'>
+            <h1>Data Analysis</h1>
+            <p>
+             Skilled in analyzing and visualizing data using 
+             Python, MySQL, Excel, and Power BI to generate 
+             meaningful insights and reports.
+            </p>
+          </div>
+        </div>
 
         <div className='skillBar'>
           <img src={UIdesign} alt='frontend development' className='skillBarimg'/>
@@ -108,18 +121,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className='skillBar'>
-          <img src={datanalyst} alt='software development' className='skillBarimg'/>
-
-          <div className='skillBarText'>
-            <h1>Data Analysis</h1>
-            <p>
-             Skilled in analyzing and visualizing data using 
-             Python, MySQL, Excel, and Power BI to generate 
-             meaningful insights and reports.
-            </p>
-          </div>
-        </div>
+       
       <div className='educationSection'>
 
   <h2 className='educationTitle'>
