@@ -9,22 +9,51 @@ import portfolio4 from '../../assets/currency.png';
 import portfolio5 from '../../assets/scissor.png';
 import portfolio6 from '../../assets/Dashboard.png.png';
 import portfolio7 from '../../assets/pizza.png';
+import portfolio8 from '../../assets/D.png';
 
 const Works = () => {
   return (
     <section id='works'>
 
       <h2 className='workTitle'>Projects</h2>
-
-      <span className='workDesc'>
-        Here are some of the projects I developed using modern web technologies
-        including React, Django, Python, JavaScript, and MySQL.
-      </span>
+<span className='workDesc'>
+  Explore my projects in Software Development and Data Analytics, 
+  including web applications, interactive dashboards, and data-driven 
+  insights built using Python, React, Django, SQL, Excel, and Power BI.
+</span>
       <div className='workCards'>
+
+     <div className='workCard'>
+     <img src={portfolio8} alt='Techno Sales Dashboard' className='workImg'/>
+
+      <h3>TECHNO SALES DASHBOARD</h3>
+
+<p>
+  Developed an interactive sales dashboard using Power BI to analyze sales performance, total profit, product categories, brand distribution, and state-wise sales trends.
+</p>
+
+<span className='techStack'>
+  Power BI • Excel • DAX • Power Query • Data Analysis
+</span>
+
+<div className='projectBtns'>
+
+  <a
+    href='https://github.com/abhiram-mee/Techno-Sales-Dashboard'
+    target='_blank'
+    rel='noreferrer'
+    className='projectBtn'
+  >
+    GitHub
+  </a>
+
+  
+
+</div>
+</div>
       <div className='workCard'>
           <img src={portfolio6} alt='COFFEE SHOP SALES' className='workImg'/>
-
-          <h3>COFFEE SHOP SALES</h3>
+         <h3>COFFEE SHOP SALES</h3>
 
           <p>
            Created an interactive sales dashboard using Excel to analyze coffee shop sales, customer orders, product performance, and revenue trends.
